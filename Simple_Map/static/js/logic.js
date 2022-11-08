@@ -11,7 +11,7 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
     maxZoom: 18,
     accessToken: API_KEY
 });
-
+ 
 // Then we add our 'graymap' tile layer to the map
 
 streets.addTo(map);
